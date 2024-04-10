@@ -1,13 +1,24 @@
 .screen-wrapper{
 width: 100%;
-height: 100vh;
+height: 100%;
 display: flex;
 }
 
 .sidebar{
 width: 10%;
-height: 100%;
+height: 100vh;
 background-image: url(./img/sidebar-bg.png);
 background-color:darkcyan;
 color: white;
+}
+
+.wrapper-main{
+    height: 100%;
+    width: 90%;
+    display: flex;
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
 }
