@@ -46,15 +46,16 @@ opacity: 0.4;
 /* ***Media quieries*** */
 
 @media screen and (max-width: 1340px) {
-    .none{
-        display: none;
-    }
+    
     .big{
         font-size: 30px;
         margin-left: 1rem;
     }
     .mt-logo{
         display: block;
+    }
+    .none{
+        display: none;
     }
     
     
@@ -65,6 +66,7 @@ opacity: 0.4;
     .compress{
         display: none;
     }
+    
     
 }
 
@@ -79,6 +81,10 @@ opacity: 0.4;
     .none-mobile{
         display: none;
     }
+    .order1{
+        order: -1;
+    }
+    
 }
 
 
