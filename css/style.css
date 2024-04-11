@@ -60,5 +60,26 @@ opacity: 0.4;
     
 }
 
+@media screen and (max-width: 990px) {
+
+    .compress{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 990px){
+    .none-2{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 812px) {
+    .none-mobile{
+        display: none;
+    }
+}
+
 
 
