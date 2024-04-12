@@ -22,6 +22,16 @@ color: white;
     height: calc(100vh - 3rem);
 }
 
+.logo-container-small{
+    height:3rem ;
+    width: 3rem;
+    margin-left: 0;
+}
+
+.logo-container-small > img{
+    width: 100%;
+}
+
 /* **Generic** */
 
 .logo{
@@ -78,6 +88,9 @@ opacity: 0.4;
     .none-2{
         display: none;
     }
+    .logo-container-small{
+        display: none;
+    }
 }
 
 
@@ -88,7 +101,7 @@ opacity: 0.4;
     .order1{
         order: -1;
     }
-    
+
 }
 
 
