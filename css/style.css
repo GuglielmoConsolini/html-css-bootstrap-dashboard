@@ -1,3 +1,6 @@
+
+
+/* ***Wrapper*** */
 .screen-wrapper{
 width: 100%;
 display: flex;
@@ -19,6 +22,8 @@ color: white;
     height: calc(100vh - 3rem);
 }
 
+/* **Generic** */
+
 .logo{
     width: 20px;
     height: 20px;
@@ -35,9 +40,9 @@ opacity: 0.4;
 }
 
 
- p:hover {
-    background-color: gray;
-    opacity: 0.4;
+ .bg-gray:hover {
+    background-color: lightgreen;
+    opacity: 0.8;
 }
 
 
@@ -45,26 +50,25 @@ opacity: 0.4;
 
 /* ***Media quieries*** */
 
-@media screen and (max-width: 1340px) {
-    
-    .big{
-        font-size: 30px;
-        margin-left: 1rem;
-    }
-    .mt-logo{
-        display: block;
-    }
-    .none{
-        display: none;
-    }
-    
-    
-}
+
 
 @media screen and (max-width: 990px) {
 
     .compress{
         display: none;
+    }
+    .none{
+        display: none;
+    }
+    .big{
+        font-size: 30px;
+        margin-left: 1rem;
+    }
+    .sidebar{
+        width: 5rem;
+    }
+    .wrapper-main{
+        width: calc(100% - 5rem);
     }
     
     
